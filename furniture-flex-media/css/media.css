@@ -1,0 +1,29 @@
+@media(max-width:1100px)
+{
+    /* span{display: block;}
+    .header .nav ul {display: none;} */
+    .header .logo {width: 100%;}
+    .header .nav {width: 100%;}
+    
+}
+
+@media(max-width:900px)
+{
+    span{display: block;}
+    .header .nav ul {display: none;}
+    .header .logo {width: 100%;}
+    .header .nav {width: 100%;}
+    
+}
+
+@media(max-width:500px)
+{
+    span{display: block;}
+    .header .nav ul {display: none;}
+    .header .logo {width: 100%;}
+    .header .nav {width: 100%;}
+
+    .slider .col{width: 100%;}
+ 
+    
+}

@@ -1,0 +1,105 @@
+
+*{box-sizing: border-box; margin: 0;padding: 0;}
+
+.header 
+{
+   /* height: 100px;
+    background: lightcyan;*/
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 100px;
+}
+
+.header .logo 
+{
+    height: 100px;
+    width: 30%;
+}
+.header .nav 
+{
+    height: 100px;
+    width: 70%;
+   /* background: coral; */
+}
+
+
+.header .nav li 
+{
+    display: inline;
+    margin-right: 20px;
+    
+}
+.header .nav li .a 
+{
+    position: relative;
+}
+.header .nav li .a .homesub 
+{
+    
+    border: 2px solid blue;
+    background: gray;
+    position: absolute;
+    visibility: hidden; 
+
+    display: grid;
+    grid-template-columns: 20fr 20fr 20fr 60fr;
+}
+.header .nav li .a:hover .homesub
+{
+    visibility: visible;
+}
+
+a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+span 
+{
+    display: none;
+} 
+
+.slider 
+{
+    height: auto;
+    /* background: gray; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider .col
+{
+    height: 450px;
+    width: 50%;
+    /* background: coral; */
+    padding: 34px;
+    /* border: 2px solid; */
+}
+
+.slider .col p 
+{
+    font-size: 34px;
+    /* background: green; */
+    width: 50%;
+    line-height: 80px;
+}
+
+.slider .col button 
+{
+    border: none;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    padding:14px 44px;
+}
+.slider .col button:hover 
+{
+    background: transparent;
+    color: #000;
+    border: 1px solid;
+}
+
