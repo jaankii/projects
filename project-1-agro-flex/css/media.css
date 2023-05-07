@@ -1,0 +1,128 @@
+@media(max-width:500px) 
+{
+.header .bars 
+{
+    display: block;
+    margin-right: 0;
+}
+.header .agroimg 
+{
+    margin-left: 0;
+}
+.header .navbar 
+{
+    display: none;
+}
+.header .icons 
+{
+    display: none;
+}
+.header .getintouch 
+{
+    display: none;
+}
+.header .text .name 
+{
+    display: none;
+}
+.header .text .tittle
+{
+    font-size: 18px;
+}
+.offer .special-offer p 
+{
+    margin: 20px 20px;
+}
+.offer .images .i 
+{
+    width: 50%;
+    margin-top: 50px ;
+}
+.bgimgtext
+{
+    font-size: 50px;
+    margin: 150px 30px;
+}
+.agro 
+{
+    background: none;
+}
+.agro .forflex .a 
+{
+    width: 100%;
+}
+.count 
+{
+    height: 430px;
+    margin-top: 600px;
+}
+.count .numbers .n 
+{
+    width: 100%;
+    margin-top: 0;
+}
+.world .worldtext p 
+{
+    margin: 0 20px; 
+}
+.main-image-sec .forrelative .im  
+{
+    width: 100%;
+}
+.main-image-sec .forrelative .im-50 
+{
+    width: 100%;
+}
+.main-image-sec .forrelative .blank  
+{
+    display: none;
+}
+.peoplemain .textmaindiv .text p 
+{
+    margin: 20px 20px;
+}
+.peoplemain .ptext 
+{
+    font-size: 20px;
+    margin-top: 80px;
+}
+.peoplemain .ptext::before 
+{
+    display: none;
+}
+.blog .text p 
+{
+    margin: 20px 20px;
+}
+.blog .imgflex .f1 
+{
+    width: 100%;
+}
+.lastimage .li1 
+{
+    width: 100%;
+}
+.lastimage .none 
+{
+    display: none;
+}
+.blackfooter .text 
+{
+    margin: 100px 20px;
+}
+.whitefooter .wf4 
+{
+    padding-left: 30px;
+}
+.whitefooter .wf5 .nav 
+{
+    font-size: 12px;
+}
+.whitefooter .wf6 
+{
+    margin-left: 0;
+    padding: 20px;
+    font-size: 12px;
+    
+}
+}
