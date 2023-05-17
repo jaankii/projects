@@ -117,12 +117,17 @@
 .whitefooter .wf5 .nav 
 {
     font-size: 12px;
+    
+}
+.whitefooter .wf5 .nav li 
+{
+    padding-left: 10px;
 }
 .whitefooter .wf6 
 {
     margin-left: 0;
     padding: 20px;
-    font-size: 12px;
+    font-size: 10px;
     
 }
 }

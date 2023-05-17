@@ -1,0 +1,337 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.nav 
+{
+    padding: 20px;
+    position: fixed;
+    z-index: 1000;
+    margin-top: 100px;
+}
+.nav ul i
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background: #0563bb;
+    color: #fff;
+    font-size: 25px;
+    line-height: 60px;
+   margin-top: 10px;
+}
+.nav ul 
+{
+    list-style: none;
+}
+.nav ul li a 
+{
+    text-decoration: none;
+    text-align: center;
+}
+#home 
+{
+    height: 100vh;
+    width: 100%;
+    background: url(../images/home-background.jpg) top right no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#home::before 
+{
+   content: "";
+   background: rgba(255, 255, 255, .80);
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+}
+#home .name 
+{
+    position: absolute;
+    top: 250px;
+    right: 150px;
+}
+#home .name h1 
+{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    color: #45505b;
+}
+#home .name p 
+{
+    color: #45505b;
+    margin-top: 15px;
+    font-size: 26px;
+
+} 
+#home .name p span 
+{
+    color: #0563bb;
+    letter-spacing: 1px;
+}
+#home .name p span .typed-cursor 
+{
+    opacity: 1;
+}
+#home .name .links i 
+{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #45505b;
+}
+#home .name .links i:hover
+{
+    color: #0563bb;
+}
+/* ABOUT SECTION START */ 
+#about 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.section-title h1 
+{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #45505b;
+}
+.section-title h1::before 
+{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+}
+.section-title h1::after 
+{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #0563bb;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+.section-title p 
+{
+    color: #272829;
+    margin: 10px 50px ;
+    line-height: 1.5;
+    font-size: 16px;
+}
+#about .img-details 
+{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    text-align: left;
+}
+#about .img-details .col1 
+{
+    padding-right: 50px;
+}
+#about .img-details .col1 .details 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+}
+#about .img-details .col1 h3 
+{
+    font-weight: 700;
+    font-size: 26px;
+    color: #728394;
+}
+#about .img-details .col1 p
+{
+    font-style: italic;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+}
+#about .img-details .col1 .details .d1 ul 
+{
+    list-style: none;
+}
+#about .img-details .col1 .details .d1 ul i
+{
+    font-size: 16px;
+    margin-right: 5px;
+    color: #0563bb;
+    line-height: 2;
+}
+#about .img-details .col1 .details .d1 ul li strong
+{
+    margin-right: 10px;
+    font-weight: bolder;
+}
+
+
+/* ABOUT SECTION END */ 
+
+/* FACT SECTION START */ 
+
+.fact 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.fact .fact-numbers 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.fact .fact-numbers .n1 
+{
+    margin-top: 50px;
+    text-align: center;
+}
+.fact .fact-numbers .n1 i
+{
+    font-size: 24px;
+    background: #0563bb;
+    color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    
+}
+.fact .fact-numbers .n1 h3 
+{
+    font-size: 36px;
+    font-weight: 600;
+    color: #011426;
+    margin-top: 8px;
+}
+.fact .fact-numbers .n1 p
+{
+    font-size: 14px;
+    color: #272829;
+}
+/* FACT SECTION END */ 
+
+/* SKILLS SECTION START */ 
+.skills 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.skills .skill-details 
+{
+    text-align: left;
+    margin: 50px 250px;
+}
+.skills .skill-details .progress 
+{
+    margin-top: 30px;
+}
+.skills .skill-details .progress span 
+{
+    padding: 10px 0;
+    margin: 0;
+    font-weight: 600;
+    color: #45505b;
+}
+.skills .skill-details .progress span i
+{
+    float: right;
+    font-style: normal;
+}
+.skills .skill-details .progress .progress-bar
+{
+    height: 10px;
+    width: 80%;
+    background: #0563bb;
+}
+/* SKILLS SECTION END */ 
+
+/* RESUME SECTION START */
+#resume 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+#resume .resume-details 
+{
+    display: grid ;
+    grid-template-columns: 1fr 2fr;
+    margin: 50px 50px;
+    text-align: left;
+}
+#resume .resume-details .r1
+{
+    padding: 20px;
+}
+#resume .resume-details .resume-title 
+{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+}
+#resume .resume-details .resume-items-details h4::before 
+{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    left: -25px;
+    top: 0;
+    background: #fff;
+    border: 2px solid #0563bb;
+}
+#resume .resume-details .resume-items-details h4 
+{
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+    position: relative;
+}
+#resume .resume-details .resume-items-details p 
+{
+   margin-top: 10px;
+}
+#resume .resume-details .resume-items-details ul 
+{
+    list-style: none;
+    margin-top: 20px;
+}
+#resume .resume-details .resume-items-details li 
+{
+    margin-top: 10px;
+}
+#resume .resume-details .resume-items-details li span
+{
+    margin-left: 10px;
+}
+.education 
+{
+    margin-left: 100px;
+}
+
+/* RESUME SECTION END */
