@@ -1,0 +1,113 @@
+@media(max-width:500px) 
+{
+.nav 
+{
+    display: none;
+}
+.bars 
+{
+    display: block;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+.navfun 
+{
+    display: block;
+}
+#home .name 
+{
+    left: 50px;
+}
+#about 
+{
+    margin: 50px;
+}
+#about .img-details 
+{
+    grid-template-columns: 1fr;
+    text-align: left;
+    padding: 60px;
+}
+#about .img-details .col1 .details 
+{
+    grid-template-columns: 1fr;
+}
+.fact 
+{
+    margin: 50px;
+}
+.fact .fact-numbers 
+{
+    grid-template-columns: 1fr 1fr;
+}
+.skills 
+{
+    margin: 50px;
+}
+.skills .skill-details 
+{
+    margin: 50px; 
+
+}
+#resume 
+{
+    margin: 50px;
+}
+#resume .resume-details 
+{
+    grid-template-columns: 1fr;
+}
+.education 
+{
+    margin: 10px;
+}
+#portfolio 
+{
+    margin: 50px;
+}
+.projects 
+{
+    grid-template-columns: 1fr;
+}
+#services 
+{
+    margin: 50px;
+}
+.service-part 
+{
+    grid-template-columns: 1fr;
+}
+#contact 
+{
+    margin: 50px;
+}
+.contact-part 
+{
+    grid-template-columns: 1fr;
+}
+.contact-part .c1 form .i1 
+{
+    width: 98%;
+    margin-top: 20px;
+}
+.contact-part .c1 form .i2
+{
+    width: 98%;
+}
+.contact-part .c1 form .i3 
+{
+    width: 98%;
+}
+.contact-part .c1 form button 
+{
+    margin: 15px 60px;
+    width: 50%;
+}
+.footer 
+{
+   
+    padding: 20px; 
+
+}
+}

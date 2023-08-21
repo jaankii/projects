@@ -1,0 +1,205 @@
+@media(max-width:500px) 
+{
+.header .search .bar 
+{
+    visibility: visible;
+}
+.header .icon
+{
+    display: none;
+}
+.header .email 
+{
+    display: none;
+}
+.header .content
+{
+    display: none;
+}
+.header .search 
+{
+   margin: 40px 200px ;
+   width: 150px;
+   font-size: 20px;
+}
+.navbar 
+{
+    display: none;
+}
+.slider .mainorganic p  
+{
+    font-size: 60px;
+}
+.slider .mainorganic p span::before 
+{
+   display: none;
+}
+.slider .mainorganic p span::after 
+{
+    display: none;
+}
+.slider .mainorganic button 
+{
+    margin: 100px 100px;
+}
+.mainlabel .lebal 
+{
+    margin-top: 20px;
+    display: block;
+    grid-template-columns: 1fr;
+}
+.mainlabel .lebal .shipping 
+{
+    display: none;
+}
+.mainlabel .lebal .locator 
+{
+    display: none;
+}
+.mainlabel .animation-leaf 
+{
+    opacity: 0;
+}
+.mainlabel .leafimg 
+{
+    margin: 100px 80px;
+    text-align: center;
+}
+.mainlabel .menu 
+{
+    margin-top: 200px;
+    left: 15px;
+}
+.section 
+{
+    opacity: 1;
+    margin-top: 450px;
+    grid-template-columns: 1fr;
+}
+.section1 
+{ 
+    margin-top: 50px;
+    grid-template-columns: 1fr;
+}
+.count .bgimg 
+{
+    grid-template-columns: 1fr;
+}
+.count h1 
+{
+    margin-top: 50px;
+}
+.count p 
+{
+    padding: 50px;
+}
+.sec 
+{
+    grid-template-columns: 1fr;
+}
+.sec .j .gaurauntyimg
+{
+    opacity: 0;
+}
+.sec .j .mainimg 
+{
+    padding: 30px;
+}
+.sec .j .t1 .sectionpart 
+{
+    grid-template-columns: 1fr;
+
+}
+.sec .j .t1 button 
+{
+    margin-top: 100px;
+}
+.envato 
+{
+    grid-template-columns: 1fr 1fr;
+}
+.envato .e1 
+{
+    display: none;
+}
+.heartsec 
+{
+    grid-template-columns: 1fr ;
+}
+.heartsec .right img 
+{
+    padding-top: 780px;
+    width: 100%;
+    
+}
+.heartsec .right h2 
+{
+    display: none;
+}
+.heartsec .left .p1 
+{
+    margin-top: 10px;
+    padding: 40px 20px;
+}
+.heartsec .left .w 
+{
+    display: none;
+}
+.heartsec .left .inerpart .x2 span 
+{
+    line-height: 1.5;
+}
+.peoplesec .part3 
+{
+    grid-template-columns: 1fr;
+}
+.peoplesec .part3 .men 
+{
+    width: 100%;
+    margin: 0 35px;
+}
+.peoplesec .part3 .q
+{
+    opacity: 0;
+}
+.instaimage .insta5pics 
+{
+    grid-template-columns: 1fr ;
+}
+.instaimage .insta5pics .t 
+{
+    display: none;
+}
+
+.instaimage .insta5pics img
+{
+    width: 100%;
+    height: auto;
+} 
+.instaimage .insta5pics .i1 .plus 
+{
+    top: 40%;
+    left: 40%;
+}
+.footer .img1 
+{
+    display: none;
+}
+.footer .img2 
+{
+    display: none;
+}
+.footer .footer-sec 
+{
+    grid-template-columns: 1fr;
+}
+.footer
+{
+    height: 1500px;
+}
+.footer .underline 
+{
+    top: 90%;
+    left: 0;
+}
+}

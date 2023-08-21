@@ -1,0 +1,1030 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* HEADER START */
+.header 
+{
+    position: relative;
+}
+.header .main-header 
+{
+    display: flex;
+    flex: wrap;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.header .agroimg 
+{
+    margin-left: 100px;
+}
+.header .navbar ul 
+{
+ word-spacing: 20px;
+}
+.header .navbar .mainul li 
+{
+    display: inline;
+    position: relative;
+}
+.header .navbar .mainul li .dropdown
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 200px;
+    background: #000;
+    z-index: 100;
+    transition: 1s;
+    word-spacing: 5px;
+    line-height: 1;
+}
+.header .navbar .mainul li:hover .dropdown 
+{
+    display: block;
+} 
+
+.header .navbar .mainul li .dropdown li 
+{
+    display: grid;
+    grid-template-rows: auto;
+    text-align: left;
+    padding: 10px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.header .navbar li i
+{
+    color: #fcdb5a;
+    margin-left: 10px;
+}
+.header .navbar a 
+{
+    text-decoration: none;
+    color: #fff;
+}
+.header .navbar a:hover
+{
+    text-decoration: underline;
+    text-decoration-color: #fcdb5a;
+}
+.header .navbar 
+{
+    width: 180%;
+    text-align: right;
+    margin-top: 30px;
+}
+.header .icons 
+{ 
+    width: 20%;
+    color: #fff;
+    margin-left: 50px;
+    word-spacing: 20px;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.header .getintouch 
+{
+   text-align: right;
+   margin: 10px 10px;
+}
+.header .getintouch button 
+{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    border: none;
+    background: #fcdb5a;
+}
+.header .getintouch button:hover 
+{
+    background: transparent;
+    border: 2px solid #fcdb5a;
+    color: #fff;
+}
+.header .bars 
+{
+    margin-top: 20px;
+    margin-left: 70%;
+    font-size: 25px;
+    color: #fff;
+    padding-right: 20px;
+    display: none;
+    
+}
+.header .twoline 
+{
+    position: absolute;
+    top: 82%;
+    left: 48%;
+}
+.header .twoline .line1 
+{
+    height: 100px;
+    width: 5px;
+    border-radius: 50px;
+    background-color: #fcdb5a;
+    margin: 20px;
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+.header .twoline .line2
+{
+    height: 150px;
+    width: 5px;
+    border-radius: 50px;
+    background-color: #fcdb5a;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+.header .capsule 
+{
+   
+    position: absolute;
+    top: 45%;
+    right: 3%;
+}
+.header .capsule .capsule1 
+{
+    height: 10px;
+    width: 20px;
+    border-radius: 50px;
+    background: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+}
+.header .capsule .capsule2 
+{
+    height: 10px;
+    width: 10px;
+    border-radius: 50px;
+    border: 2px solid #fff;
+    margin-top: 20px;
+    
+    margin-bottom: -5px;
+}
+.header .capsule .capsule2:hover 
+{
+    width: 20px;
+}
+.header .text 
+{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    right: 20%;
+}
+.header .text .name 
+{
+    font-size: 40px;
+    color: #fff;
+    line-height: 1;
+    font-weight: 10;
+    font-family: raleway,sans-serif;
+}
+.header .text .tittle 
+{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1.2;
+    font-weight: 900;
+    margin: 20px 0;
+    font-family: raleway,sans-serif;
+
+}
+.header .text .peregraph 
+{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+.header .text .btn 
+{
+    text-align: center;
+    margin: 30px 0;
+}
+.header .text .btn button 
+{
+    height: 50px;
+    width: 200px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fcdb5a;
+    border-radius: 50px;
+    font-weight: 600;
+}
+.header .text .btn button:hover
+{
+    background: #fcdb5a;
+}
+/* HEADER END */
+/* OFFER SECTION START */
+.offer 
+{
+    margin-top: 120px;
+}
+.offer .special-offer 
+{
+    text-align: center;
+    margin-top: 150px;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.offer .special-offer span 
+{
+    font-weight: 10;
+}
+.offer .special-offer p 
+{
+    margin: 20px 250px;
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #b3b3b3;
+    font-family: sans-serif;
+}
+
+.offer .images 
+{
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.offer .images .i 
+{
+    width: 16.66%;
+    text-align: center;
+    position: relative;
+}
+.offer .images .i1 h5
+{
+    z-index: 2;
+}
+.offer .images .i1::before 
+{
+    content: "";
+    margin-left: 30%;
+    height: 100px;
+    width: 50px;
+    border: 5px solid transparent;
+    padding-top: 10px;
+    position: absolute;
+    left: 5%;
+    top: -25%;
+    z-index: -1;
+}
+.offer .images .i:hover .i1::before
+{
+    border: 5px solid #fcdb5a;
+}
+/* OFFER SECTION END */
+/* BACKGROUND IMAGE SECTION START */
+.bgimgtext 
+{
+    height: 300px;
+    text-align: center;
+    font-size: 80px;
+    font-family: sans-serif;
+    margin: 150px 100px;
+}
+.bgimgtext h2 
+{
+    background: url(../images/special_offer_text_bg.jpg);
+    background-repeat: no-repeat;
+    color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-position: 50% 50%;
+    animation: imagemove 10s infinite;
+}
+@keyframes imagemove 
+{
+    0%,100%{background-position: 50% 35%;}
+    50%{background-position: 50% 65%;}
+
+}
+/* BACKGROUND IMAGE SECTION END */
+/* AGRO SECTION START */
+.agro 
+{
+    height: 400px;
+    width: 100%;
+    background: url(../images/agro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    
+}
+.agro .forflex
+{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    z-index: 12;
+}
+.agro .forflex .a 
+{
+   width: 33.33%;
+}
+.agro .forflex .a .text 
+{
+    margin: 50px;
+}
+.agro .forflex .a .text h2 
+{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+.agro .forflex .a .text h2 span  
+{
+    font-weight: 10;
+    color: #666;
+}
+.agro .forflex .a .text button 
+{
+    margin-top: 30px;
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    border: 2px solid #fcdb5a;
+    background: transparent;
+}
+.agro .forflex .a .text button:hover 
+{
+    background: #fcdb5a;
+    color: #fff;
+}
+.agro .forflex .a .text p
+{
+    font-family: sans-serif;
+    margin-bottom: 30px;
+    line-height: 1.4;
+    font-weight: 400;
+    color: #666;
+}
+/* AGRO SECTION END */
+
+/*COUNT SECTION START */
+.count 
+{
+    height: 350px;
+    background: #fcdb5a;
+    margin: 150px 50px;
+    position: relative;
+}
+.count .numbers 
+{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.count .numbers .n 
+{
+    height: 100px;
+    width: 25%;
+    margin-top: 120px;
+}
+.count .numbers .n .innerflex 
+{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    font-family: sans-serif;
+} 
+.count .numbers .n .innerflex .nt  
+{
+    margin: 0 20px;
+}
+.count .numbers .n .innerflex .nt h2 
+{
+    font-size: 40px;
+}
+.count .numbers .n .innerflex .nt p
+{
+    color: #9a8841;
+    line-height: 1.5;
+    font-weight: 700;
+}
+/*COUNT SECTION END */
+/* WORLD MAP SECTION START */
+.world .worldtext 
+{
+    text-align: center;
+}
+.world .worldtext h2 
+{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #333;
+}
+.world .worldtext h2 span 
+{
+    font-weight: 100;
+}
+.world .worldtext p 
+{
+    font-size: 20px;
+    color: #b3b3b3;
+    font-weight: 100;
+    line-height: 1.4;
+    margin: 0 320px; 
+}
+.world .worldimage 
+{
+    margin: 70px;
+}
+/* WORLD MAP SECTION END */
+
+/*  IMAGES AND TEXT SECTION START  */
+.main-image-sec 
+{
+  margin: 0 30px;
+}
+.main-image-sec .forrelative 
+{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-image-sec .forrelative .im  
+{
+    border: 8px solid #fff;
+    height: 300px;
+    width: 25%;
+    overflow: hidden;
+    position: relative;
+}
+.main-image-sec .forrelative .im-50 
+{
+    border: 8px solid #fff;
+    height: 300px;
+    width: 50%;
+    position: relative;
+}
+
+.main-image-sec .forrelative .im-50 .text-center
+{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+    margin: 80px 40px;
+    position: absolute;
+    z-index: 30;
+ }
+ .main-image-sec .forrelative .im-50 .black
+{
+    background: #333;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+.main-image-sec .forrelative .im-50 .text h2 
+{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #333;
+}
+.main-image-sec .forrelative .im-50 .text h2 span 
+{
+    font-weight: 100;
+}
+.main-image-sec .forrelative .im-50 .text p 
+{
+    font-size: 18px;
+    color: #666;
+    font-weight: 100;
+    line-height: 1.4;
+    margin-top: 20px;
+    
+}
+.main-image-sec .forrelative .im-50 button 
+{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    border: 2px solid #ffc107;
+    background: transparent;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.main-image-sec .forrelative .im-50 button:hover 
+{
+    background: #ffc107;
+    color: #fff;
+}
+.main-image-sec .forrelative .im .mjdiv 
+{
+    overflow: hidden;
+}
+.main-image-sec .forrelative .im .mjdiv .imagediv 
+{
+    position: absolute;
+}
+.main-image-sec .forrelative .im .mjdiv .title 
+{
+   margin-top: 120px;
+    position: absolute;
+    color: #fff;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+    z-index: 5;
+   
+}
+    
+.main-image-sec .forrelative .im .mjdiv .forhoverdiv 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(117, 162, 235, .70);
+    opacity: 0;
+}
+.main-image-sec .forrelative .im:hover .forhoverdiv
+{
+    opacity: 1;
+}
+/*  IMAGES AND TEXT SECTION END  */
+
+/* PEOPLE SAYS SECTION START */
+.peoplemain 
+{
+    margin: 100px 30px;
+}
+.peoplemain .saysbgimag 
+{
+    background: url(../images/review_bg_1.png);
+    width: 100%;
+}
+.peoplemain .textmaindiv
+{
+     z-index: 60;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.peoplemain .text 
+{
+    text-align: center;
+    
+}
+.peoplemain .textmaindiv .text h2 
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #333;
+}
+.peoplemain .textmaindiv .text h2 span
+{
+    font-weight: 100;
+    color: gray;
+}
+.peoplemain .textmaindiv .text p 
+{
+    font-size: 18px;
+    color: #666;
+    font-weight: 100;
+    line-height: 1.4;
+    margin: 20px 150px;
+   
+}
+.peoplemain .ptext 
+{
+    margin-top: 100px;
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #696248;
+    line-height: 1.2;
+    font-style: italic;
+}
+.peoplemain .ptext::before 
+{
+    content: ' “ ';
+    float: left;
+    line-height: 0.8;
+    font-size: 5rem ;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(252, 219, 90);
+    font-weight: 700;
+    margin-left: -90px;
+    margin-top: -15px;
+}
+.peoplemain .terens 
+{
+    margin-top: 30px;
+}
+.peoplemain .terens::after 
+{
+    content: ' Terens Smith ';
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+/* PEOPLE SAYS SECTION END */
+/* APPLE SECTION START */
+
+.apple 
+{
+    background: rgb(238, 238, 238);
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.apple .a1
+{
+   width: 42%;
+   position: relative;
+}
+.apple .left 
+{
+    margin: 0 50PX;
+}
+.apple .left .text 
+{
+    margin-top: 80px;
+}
+.apple .left .text h2 
+{
+    font-size: 3.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #c6c820;
+    line-height: 1;
+}
+.apple .left .text h2 span
+{
+    font-weight: 100;
+}
+.apple .left .text p 
+{
+    font-size: 18px;
+    color: #666;
+    font-weight: 100;
+    line-height: 1.4;
+    margin-top: 50px;
+}
+.apple .left .text button 
+{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    border: 2px solid #fcdb5a;
+    background: transparent;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.apple .left .text button:hover 
+{
+    background: #fcdb5a;
+}
+.apple .a1 .uparimg img
+{
+    position: absolute;
+    top: 110px;
+    left:  150px;
+    border-radius: 50%;
+}
+/* APPLE SECTION END */
+
+/* BLOG SECTION START */
+.blog 
+{
+    margin: 100px 30px;
+}
+.blog .text 
+{
+   text-align: center;
+}
+.blog .text h2 
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #333;
+}
+.blog .text h2 span
+{
+    font-weight: 100;
+}
+.blog .text p 
+{
+    font-size: 18px;
+    color: #666;
+    font-weight: 100;
+    line-height: 1.4;
+    margin: 20px 250px;
+}
+.blog .imgflex 
+{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog .imgflex .f1 
+{
+    height: 600px;
+    width: 33.33%;
+    border: 10px solid #fff;
+    position: relative;
+    overflow: hidden;
+}
+.blog .imgflex .f1 .date 
+{
+    position: absolute;
+    top: 0;
+    left: 10%;
+    text-align: center;
+    background: #fcdb5a;
+    padding: 10px;
+    
+}
+
+.blog .imgflex .f1 .imgdiv 
+{
+    transition: 0.5s ease;
+}
+.blog .imgflex .f1:hover .imgdiv
+{
+    transform: scale(1.1);
+}
+
+.blog .imgflex .f1 .textdiv 
+{
+    height: 300px;
+    width: 305px;
+    margin-top: -10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: #fff;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    transition: 1s ease;
+}
+.blog .imgflex .f1:hover .textdiv 
+{
+    margin-top: -20%;
+}
+.blog .imgflex .f1 .textdiv a
+{
+    text-decoration: none;
+    color: #000;
+}
+.blog .imgflex .f1 .textdiv .p 
+{
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+.blog .imgflex .f1 .textdiv p a
+{
+    color: #fcdb5a;
+}
+.blog .imgflex .f1 .textdiv h2 a
+{
+    font-size: 20px;
+    margin-top: 15px;
+    color: black;
+}
+.blog .imgflex .f1 .textdiv h2 a:hover
+{
+    color: #fcdb5a;
+}
+.blog .imgflex .f1 .textdiv button 
+{
+    height: 50px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    border: 2px solid #fcdb5a;
+    background: transparent;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.blog .imgflex .f1 .textdiv button:hover 
+{
+    background: #fcdb5a;
+}
+
+/* BLOG SECTION END */
+/* LAST IMAGE SECTION START */
+.lastimage 
+{ 
+    margin: 0 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lastimage .li1 
+{
+    width: 20%;
+    text-align: center;
+}
+/* LAST IMAGE SECTION END */
+/* BLACK FOOTER SECTION START */ 
+.blackfooter 
+{
+    height: 600px;
+    background: #000;
+    margin-top: 100px;
+    position: relative;
+}
+.blackfooter .text 
+{
+    margin: 100px 250px;
+    position: absolute;
+    text-align: center;
+}
+.blackfooter .text h2 
+{
+    font-size: 2.5rem;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+.blackfooter .text span 
+{
+    font-weight: 100;
+}
+.blackfooter .text p 
+{
+    font-size: 18px;
+    color: #666;
+    font-weight: 100;
+    line-height: 1.4;
+    font-family: sans-serif;
+}
+.blackfooter .formtext input 
+{
+    margin-top: 100px;
+    width: 48%;
+    border: none;
+    background: transparent;
+    border-bottom: 1.5px solid #fff;
+    padding-left: 2px;
+    font-size: 18px;
+}
+.blackfooter .formtext textarea 
+{
+    width: 96%;
+    height: 100px;
+    margin-top: 20px;
+    border: none;
+    background: transparent;
+    border-bottom: 1.5px solid #fff;
+    font-size: 18px;
+} 
+.blackfooter .formtext button 
+{
+    margin-top: 20px;
+    width: 96%;
+    height: 50px;
+    border: none;
+    background: transparent;
+    border:  2px solid #fcdb5a;
+    border-radius: 50px;
+    color: #fff;
+}
+.blackfooter .formtext button:hover  
+{
+    background: #fcdb5a;
+    color: #000;
+}
+/* BLACK FOOTER SECTION START */ 
+/* WHITE LAST FOOTER SECTION START */
+.whitefooter 
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+}
+.whitefooter .wf2 
+{
+    padding: 40px;
+    line-height: 1.5;
+    color: #666;
+    
+}
+.whitefooter .wf3 
+{
+    padding: 50px;
+    word-spacing: 15px;
+    font-size: 18px;
+    color: #666;
+    font-family: sans-serif;
+}
+.whitefooter .wf3 i:hover
+{
+    color: #fcdb5a;
+}
+.whitefooter .wf4 
+{
+   margin-top: 20px;
+}
+.whitefooter .wf4 h5
+{
+    font-size: 20px;
+}
+.whitefooter .wf4 input 
+{
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid #666;
+}
+.whitefooter .wf4 button 
+{   
+    margin: 10px 10px;
+    height: 50px;
+    width: 120px;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    border: 2px solid #fcdb5a;
+}
+.whitefooter .wf4 button:hover 
+{
+    background: #fcdb5a;
+}
+.whitefooter .wf5 .nav 
+{
+    padding-top: 50px;
+    
+}
+.whitefooter .wf5 .nav li 
+{
+    display: inline;
+    padding-left: 20px;
+}
+.whitefooter .wf5 .nav li a 
+{
+    text-decoration: none;
+    color: #666;
+}
+.whitefooter .wf5 .nav li a:hover 
+{
+    text-decoration: underline;
+    text-decoration-color: #fcdb5a;
+}
+.whitefooter .wf6 
+{
+    padding: 50px;
+    margin-left: 100px;
+    color: #666;
+    font-family: sans-serif;
+}
+
+/*
+.whitefooter .wf1-20 
+{
+    border: 2px solid;
+    width: 20%;
+}
+.whitefooter .wf1-30 
+{
+    width: 30%;
+    border: 2px solid;
+}
+.whitefooter .wf1-50 
+{
+    width: 50%;
+    border: 2px solid;
+} */
+/* WHITE LAST FOOTER SECTION END */

@@ -1,0 +1,30 @@
+      .clr
+      {
+        background: #a8d741;
+      }
+      .txt-clr 
+      {
+        color: #a8d741;
+      }
+      .item-img1
+      {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+        
+      }
+      .team-img 
+      {
+        height: 250px;
+        width: 100%;
+        object-fit: cover;
+      }
+      .our-img 
+      {
+        height: 100px;
+        width: 100px;
+      }
+      .bg-card-gray 
+      {
+        background: #eeeeee;
+      }

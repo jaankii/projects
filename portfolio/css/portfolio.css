@@ -11,7 +11,18 @@
     z-index: 1000;
     margin-top: 100px;
 }
-.nav ul i
+
+.navfun 
+{
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 0 100px 100px 0;
+    background: #d7dce1;
+    position: absolute;
+    text-align: left; 
+    display: none;
+}
+.nav ul i 
 {
     height: 60px;
     width: 60px;
@@ -31,6 +42,12 @@
     text-decoration: none;
     text-align: center;
 }
+.nav ul li:hover a
+{
+    background: #0563bb;
+    color: #fff;
+}
+
 #home 
 {
     height: 100vh;
@@ -48,6 +65,10 @@
    left: 0;
    bottom: 0;
    right: 0;
+}
+.bars 
+{
+    display: none;
 }
 #home .name 
 {
@@ -180,7 +201,19 @@
     margin-right: 10px;
     font-weight: bolder;
 }
-
+.arrow 
+{
+    height: 60px;
+    width: 60px;
+    background: #0563bb;
+    color: #fff;
+    z-index: 100;
+    line-height: 60px;
+    border-radius: 50%;
+    font-size: 30px;
+   
+    
+}
 
 /* ABOUT SECTION END */ 
 
@@ -237,7 +270,7 @@
 .skills .skill-details 
 {
     text-align: left;
-    margin: 50px 250px;
+    margin: 50px 250px; 
 }
 .skills .skill-details .progress 
 {
@@ -334,4 +367,304 @@
     margin-left: 100px;
 }
 
-/* RESUME SECTION END */
+/* RESUME SECTION END */ 
+
+/* PORTFOLIO SECTION START */ 
+
+#portfolio 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+.projects 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.projects .p 
+{
+    height: 200px;
+    margin: 20px;
+    position: relative;
+    background: rgba(69 , 80, 91, 0.8);
+    z-index: 1;
+}
+.projects .p::before
+{
+    content: "";
+    background: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+}
+.projects .p:hover::before 
+{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 1;
+}
+.projects .p .portfolio-info 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    opacity: 0;
+}
+.projects .p .portfolio-info::before 
+{
+    content: "";
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    top: 35px;
+    left: 35px;
+    border-top: 3px solid #d7dce1;
+    border-left: 3px solid #d7dce1;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+.projects .p:hover .portfolio-info::before 
+{
+    top: 15px;
+    left: 15px;
+}
+.projects .p .portfolio-info::after 
+{
+    content: "";
+    display: block;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    bottom: 35px;
+    right: 35px;
+    border-bottom: 3px solid #d7dce1;
+    border-right: 3px solid #d7dce1;
+    transition: all 0.5s ease 0s;
+    z-index: 9994;
+}
+.projects .p:hover .portfolio-info::after 
+{
+    bottom: 15px;
+    right: 15px;
+}
+.projects .p:hover .portfolio-info 
+{
+    opacity: 1;
+}
+.projects .p .portfolio-info h4 
+{
+    font-size: 20px;
+    color: #45505b;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.projects .p .portfolio-info p 
+{
+    color: #45505b;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+/* PORTFOLIO SECTION END */ 
+
+/* SEVICE SECTION START */ 
+
+#services 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+} 
+.service-part 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.service-part .s1 
+{
+    /* border: 2px solid; */
+    margin: 50px;
+    box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.2);
+    background: #fff;
+    position: relative;
+
+}
+.service-part .s1 .logo 
+{
+    font-size: 30px;
+    background: #0563bb;
+    color: #fff;
+}
+.service-part .s1 h3 
+{
+    margin: 20px;
+}
+.service-part .s1 p 
+{
+    text-align: left;
+    line-height: 1;
+}
+
+.service-part .s1::before
+{
+    content: "";
+    background: rgba(110, 123, 131, 0.2);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    left:  0;
+    transform: scale(1,0);
+    transform-origin:  bottom center;
+    transition: 500ms ease;
+}
+.service-part .s1:hover::before 
+{
+    transform: scale(1,1);
+}
+/* SEVICE SECTION END */
+
+/* CONTACT SECTION START */ 
+#contact 
+{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+} 
+.contact-part 
+{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+    margin: 50px;
+}
+/* .contact-part .c1 
+{
+    border: 2px solid;
+    height: 300px;
+} */
+.contact-part .c1 .data .d1 
+{
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+.contact-part .c1 .data .d1 .dd1 
+{
+   margin-top: 30px;
+}
+.contact-part .c1 .data .d1 .logo 
+{
+   font-size: 25px;
+   background: #eef7ff;
+   border-radius: 50%;
+   height: 50px;
+   width: 50px;
+   line-height: 50px;
+   color: #0563bb;
+   text-align: center;
+}
+.contact-part .c1 .data .d1 .det
+{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: -20px;
+    
+}
+.contact-part .c1 .data .d1:hover .logo 
+{
+    background: #0563bb;
+    color: #fff;
+}
+.contact-part .c1 form 
+{
+    text-align: left;
+    margin: 20px;
+}
+.contact-part .c1 form .i1 
+{
+    height: 40px;
+    width: 49%;
+    padding: 10px;
+}
+.contact-part .c1 form .i2 
+{
+    height: 40px;
+    width: 99%;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.contact-part .c1 form .i3 
+{
+    width: 99%;
+    margin-top: 20px;
+    padding: 10px;
+
+}
+.contact-part .c1 form button 
+{
+    height: 40px;
+    width: 30%;
+    background: #0563bb;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    margin: 15px 250px;
+}
+.contact-part .c1 form button:hover
+{
+    background: #fff;
+    color: #0563bb;
+    border: 2px solid #0563bb;
+}
+/* CONTACT SECTION END */ 
+
+/* FOOTER SECTION START */ 
+
+.footer 
+{
+    background: lightgrey;
+    text-align: center;
+    padding: 20px 300px; 
+}
+.footer .text h2 
+{
+    color: #0563bb;
+}
+.footer .text p
+{
+    margin-top: 10px;
+}
+.footer .icons 
+{
+    margin: 50px;
+    font-size: 25px;
+}
+.footer .icons a 
+{
+    padding: 10px;
+    background: #0563bb;
+    color: #fff;
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+}
+.footer .icons a:hover
+{
+    background: #fff;
+    color: #0563bb;
+    border: 2px solid #0563bb;
+}
+/* FOOTER SECTION END */ 
+
+
